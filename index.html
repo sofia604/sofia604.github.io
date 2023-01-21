@@ -11,7 +11,7 @@
   <body>
 
     <header>
-      <h1 style="text-align:center;">Curriculum Vitae</h1>
+      <h1>Curriculum Vitae</h1>
     </header>
 
     <!-- Nav: Inicio -->
@@ -26,10 +26,12 @@
     </nav>
     <!-- Nav: Fin -->
 
-    <section id="secciondatos">
+    <section id="secciondatos" class="seccion">
       <h2>Datos personales</h2>
-      <span>Nombre:<span>Sofía Del Rocío</span>
-      <span>Apellidos:<span>España Ayala</span>
+      <span>Nombre:</span>
+      <span>Sofía Del Rocío</span><br>
+      <span>Apellidos:</span>
+      <span>España Ayala</span>
       <p>¡Hola! Soy ________, con experiencia en desarrollo web en front end y
         back end.<br> Participo en todas las etapas
         del ciclo de desarrollo de proyectos web dinámicos.<br> Además, tengo
@@ -37,14 +39,14 @@
         y relaciones con los clientes.</p>
     </section>
 
-    <section id="seccionredes">
+    <section id="seccionredes" class="seccion">
       <h2>Redes sociales</h2>
       <span><a href="https://www.linkedin.com/">LinkedIn</a></span>
       <span><a href="https://github.com/">Github</a></span>
       
     </section>
 
-    <section id="seccionhabilidades">
+    <section id="seccionhabilidades" class="seccion">
       <h2>Habilidades Profesionales</h2>
       <ul>
         <li>HTML & CSS</li>
@@ -55,7 +57,7 @@
       </ul>
 
       <h2>Idiomas</h2>
-      <table border="1">
+      <table>
         <caption>Habilidad en idiomas</caption>
         <tr>
           <th></th>
@@ -89,30 +91,27 @@
       </ol>
     </section>
 
-    <aside id="secciongaleria">
-      <img src="public/images/reading.jpg" alt="Reading" width="30%">
-      <img
-        src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
-        alt="Foto de colaboración" width="30%">
-
+    <aside id="secciongaleria" class="seccion">
+      <img src="public/images/reading.jpg" alt="Reading" width="50%">
+      <img src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg" alt="Foto de colaboración" width="50%">
     </aside>
 
-    <section id="seccioncontactenos">
+    <section id="seccioncontactenos" class="seccion">
       <h2>Contáctame</h2>
-      <h3>Sus datos</h3>
+      <h3 id="datos">Sus datos</h3>
 
       <form>
         <label for="nombre">Nombres:</label><input type="text" name="nombre"
-          id="nombre">
+          id="nombre"><br>
         <label for="nombre">Apellidos:</label><input type="text"
           name="apellidos"
           id="apellidos"><br>
 
         <label for="edad">Seleccione su rango de edad</label><br>
         <input type="radio" id="opcion1" name="edad" value="menor25"><label
-          for="opcion1"> menor a 25 años</label>
+          for="opcion1"> menor a 25 años</label><br>
         <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
-          for="opcion2"> entre 26 y 30 años</label>
+          for="opcion2"> entre 26 y 30 años</label><br>
         <input type="radio" id="opcion3" name="edad" value="mayor31"><label
           for="opcion3"> mayor a 31 años</label><br><br>
 
@@ -126,12 +125,15 @@
         <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
         <button type="submit">Enviar</button>
       </form>
+    
 
-
-      <h3>Ubicación</h3>
+      <h3 id="Ubicacion">Ubicación</h3>
       <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0151653775133!2d-79.96675808605129!3d-2.1478801984343434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1673708213055!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+
+    </section>
+
       <footer>
         <address>Email: <a href="mailto:CORREO">sespana@espol.edu.ec</a><br>
           Tel: <a href="tel:+TELEFONO">+593 991069070</a><br><br>
@@ -140,7 +142,7 @@
           PAÍS</address>
       </footer>
 
-    </section>
+    
 
     
 
