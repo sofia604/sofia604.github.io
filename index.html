@@ -15,7 +15,7 @@
     </header>
 
     <!-- Nav: Inicio -->
-    <nav>
+    <nav id="Navegacion">
       <ul>
         <li><a href="#secciondatos">Datos Personales</a></li>
         <li><a href="#seccionredes">Redes Sociales</a></li>
@@ -101,28 +101,28 @@
       <h3 id="datos">Sus datos</h3>
 
       <form>
-        <label for="nombre">Nombres:</label><input type="text" name="nombre"
-          id="nombre"><br>
-        <label for="nombre">Apellidos:</label><input type="text"
+        <div><label for="nombre">Nombres:</label><input type="text" name="nombre"
+          id="nombre"></div>
+        <div><label for="nombre">Apellidos:</label><input type="text"
           name="apellidos"
-          id="apellidos"><br>
+          id="apellidos"></div>
 
-        <label for="edad">Seleccione su rango de edad</label><br>
-        <input type="radio" id="opcion1" name="edad" value="menor25"><label
-          for="opcion1"> menor a 25 años</label><br>
-        <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
-          for="opcion2"> entre 26 y 30 años</label><br>
-        <input type="radio" id="opcion3" name="edad" value="mayor31"><label
-          for="opcion3"> mayor a 31 años</label><br><br>
+        <div><label for="edad">Seleccione su rango de edad</label></div>
+        <div><input type="radio" id="opcion1" name="edad" value="menor25"><label
+          for="opcion1"> menor a 25 años</label></div>
+        <div><input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+          for="opcion2"> entre 26 y 30 años</label></div>
+        <div><input type="radio" id="opcion3" name="edad" value="mayor31"><label
+          for="opcion3"> mayor a 31 años</label></div>
 
-        <label for="tiposervicio">Seleccione el tipo de servicio a consultar</label><br>
-        <input type="checkbox" name="frontend" id="frontend"><label
-          for="frontend">Frontend Dev</label><br>
-        <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
-          Dev</label><br>
-        <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
-          de software</label><br>
-        <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
+        <div><label for="tiposervicio">Seleccione el tipo de servicio a consultar</label></div>
+        <div><input type="checkbox" name="frontend" id="frontend"><label
+          for="frontend">Frontend Dev</label></div>
+        <div><input type="checkbox" name="backend" id="backend"><label for="backend">Backend
+          Dev</label></div>
+        <div><input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
+          de software</label></div>
+        <div><input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label></div>
         <button type="submit">Enviar</button>
       </form>
     
@@ -135,11 +135,13 @@
     </section>
 
       <footer>
-        <address>Email: <a href="mailto:CORREO">sespana@espol.edu.ec</a><br>
-          Tel: <a href="tel:+TELEFONO">+593 991069070</a><br><br>
-          DIRECCIÓN<br>
-          CIUDAD<br>
-          PAÍS</address>
+        <address>
+          <div>Email:<a href="mailto:CORREO">sespana@espol.edu.ec</a></div>
+          <div>Tel: <a href="tel:+TELEFONO">+593 991069070</a></div>
+          <div>DIRECCIÓN</div>
+          <div>CIUDAD</div>
+          <div>PAÍS</div>
+        </address>
       </footer>
 
     
