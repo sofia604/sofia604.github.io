@@ -607,6 +607,17 @@ progress {
   height: auto;
 }
 
+.img-fluid#IA{
+  margin-bottom: 2rem;
+  box-shadow: 1rem 1rem rgb(124, 122, 122);
+}
+
+.img-fluid#cable{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4721,9 +4732,14 @@ textarea.form-control-lg {
   border-radius: calc(0.25rem - 1px);
 }
 
+.card-img-top#img2{
+  width: auto;
+  height: 133.14px;
+}
 .card-img,
 .card-img-top,
 .card-img-bottom {
+  
   width: 100%;
 }
 
