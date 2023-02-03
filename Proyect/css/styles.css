@@ -11650,6 +11650,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: linear-gradient(to top, #fff 80%, rgba(0, 0, 0, 0.8) 100%);
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11677,7 +11678,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/robot.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
